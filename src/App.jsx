@@ -11,9 +11,9 @@ const App = () => {
     <div className="App">
       <Header />
       <Nav />
-      <About />
       <Skills />
       <Portfolio />
+      <About />
       <Contact />
       <Footer />
     </div>
