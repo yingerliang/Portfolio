@@ -1,0 +1,38 @@
+footer {
+  background: var(--color-secondary);
+  padding: 3rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 10rem;
+}
+
+footer a {
+  color: var(--color-text);
+}
+
+footer a:hover {
+  color: var(--color-tertiary);
+}
+
+.footer_logo {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  display: inline-block;
+}
+
+.permalinks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0 auto 3rem;
+}
+
+.footer_socials {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+}

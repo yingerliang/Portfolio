@@ -5,17 +5,18 @@ import HSocials from './HSocials'
 
 const Header = () => {
   return (
-    <header>
+    <header id="home">
       <div className="container header_container">
-        <h5>Hello, I'm</h5>
-        <h1>Rebecca</h1>
-        <h5>Frontend Developer based in New Zealand</h5>
+        <div className="header_content">
+          <h5>Hello, I'm</h5>
+          <h1>Rebecca</h1>
+          <h5>Frontend Developer based in New Zealand</h5>
+          <CTA />
+        </div>
 
         <div className="header_logo">
           <img src={logo} alt="Header" className="logo" />
         </div>
-
-        <CTA />
         <HSocials />
         <a href="#contact" className="scroll_down">
           Scroll Down

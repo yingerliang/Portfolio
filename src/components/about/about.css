@@ -1,0 +1,22 @@
+.about_container {
+  display: flex;
+}
+
+.about_text {
+  display: block;
+  flex: 1;
+}
+
+.about_text h2 {
+  margin-bottom: 10px;
+}
+
+.about_text p {
+  line-height: 1.7;
+  font-size: 18px;
+}
+
+.about_img {
+  display: flex;
+  flex: 1;
+}

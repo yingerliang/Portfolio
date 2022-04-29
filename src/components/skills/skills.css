@@ -17,7 +17,7 @@
 .skills_card {
   background: var(--color-secondary);
   border: 1px solid transparent;
-  color: var(--btn-text-color);
+  color: var(--color-text);
   border-radius: 1rem;
   padding: 2rem;
   margin-bottom: 20px;
@@ -31,7 +31,7 @@
 }
 
 .skills_icon {
-  color: var(--btn-text-color);
+  color: var(--color-text);
   font-size: 1.4rem;
   margin-right: 10px;
 }
