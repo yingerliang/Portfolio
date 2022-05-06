@@ -12,17 +12,12 @@
 }
 
 .contact_option {
-  background-color: var(--color-secondary);
+  background-color: var(--color-secondary-variant);
   padding: 1.2rem;
   border-radius: 1.2rem;
   text-align: center;
   border: 1px solid transparent;
   transition: var(--transition);
-}
-
-.contact_option:hover {
-  background: transparent;
-  border-color: var(--color-secondary-variant);
 }
 
 .contact_option-icon {
@@ -49,8 +44,15 @@ textarea {
   padding: 1.5rem;
   border-radius: 0.5rem;
   background: transparent;
-  border: 1px solid var(--color-primary);
+  border: 1px solid var(--color-secondary);
   resize: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact_container .btn {
+  border: 1px solid var(--color-secondary);
+  background-color: transparent;
+  font-size: 16px;
   font-family: 'Poppins', sans-serif;
 }
 

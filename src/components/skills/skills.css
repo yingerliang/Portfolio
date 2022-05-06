@@ -1,3 +1,7 @@
+#skills h2 {
+  color: var(--color-primary);
+}
+
 .skills_container {
   display: grid;
   grid-template-columns: 35% 50%;
@@ -15,7 +19,7 @@
 }
 
 .skills_card {
-  background: var(--color-secondary);
+  background: var(--color-primary-variant);
   border: 1px solid transparent;
   color: var(--color-text);
   border-radius: 1rem;
@@ -25,8 +29,8 @@
 }
 
 .skills_card:hover {
-  background: var(--color-secondary-variant);
-  border-color: var(--color-secondary);
+  background: var(--color-primary-variant);
+  border-color: var(--color-primary);
   cursor: default;
 }
 

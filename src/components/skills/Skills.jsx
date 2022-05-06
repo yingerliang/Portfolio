@@ -6,7 +6,8 @@ import { MdDesignServices } from 'react-icons/md'
 const Skills = () => {
   return (
     <section id="skills">
-      <h2>My Skills</h2>
+      <h5>What Skills I Have</h5>
+      <h2>My Experience</h2>
       <div className="container skills_container">
         <div className="skills">
           <div className="skills_image">

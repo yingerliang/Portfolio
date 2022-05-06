@@ -1,6 +1,5 @@
 import './header.css'
 import CTA from './CTA'
-import logo from '../../assets/computer.svg'
 import HSocials from './HSocials'
 
 const Header = () => {
@@ -14,9 +13,9 @@ const Header = () => {
           <CTA />
         </div>
 
-        <div className="header_logo">
-          <img src={logo} alt="Header" className="logo" />
-        </div>
+        {/*<div className="header_logo">
+          <img src={avatar} alt="Header" className="img-fluid logo" />
+  </div>*/}
         <HSocials />
         <a href="#contact" className="scroll_down">
           Scroll Down

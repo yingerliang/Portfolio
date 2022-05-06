@@ -1,3 +1,7 @@
+#about h2 {
+  color: var(--color-primary);
+}
+
 .about_container {
   display: flex;
 }
@@ -16,7 +20,35 @@
   font-size: 18px;
 }
 
+.about_text :first-child {
+  margin-bottom: 1rem;
+}
+
 .about_img {
   display: flex;
   flex: 1;
+  width: 200px;
+  height: 200px;
+}
+
+/* -------------- MEDIA QUERIES (SMALL DEVICES) ------------------- */
+@media screen and (max-width: 600px) {
+  .about_container {
+    display: flex;
+  }
+
+  .about_img {
+    display: none;
+  }
+
+  .about_text :first-child {
+    margin-bottom: 2rem;
+  }
+}
+
+/* -------------- MEDIA QUERIES (MEDIUM DEVICES) ------------------- */
+@media screen and (max-width: 1024px) {
+  nav {
+    display: none;
+  }
 }

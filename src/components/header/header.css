@@ -1,9 +1,7 @@
-header {
-  padding-top: 7rem;
-}
-
 header h1 {
   font-size: 3.5rem;
+  color: var(--color-secondary);
+  font-weight: 600;
 }
 
 header h5 {
@@ -19,6 +17,7 @@ header h5 {
 .header_content {
   display: block;
   padding-top: 7rem;
+  margin-top: 10rem;
 }
 
 /* ------------- CTA ---------------- */
@@ -26,6 +25,15 @@ header h5 {
   margin-top: 2.5rem;
   display: flex;
   gap: 1rem;
+}
+
+.cta .btn {
+  border: 1px solid var(--color-secondary);
+}
+
+.cta .btn-primary {
+  background: var(--color-secondary);
+  color: var(--color-bg);
 }
 
 /* ------------- HEADER SOCIALS ---------------- */
@@ -40,22 +48,27 @@ header h5 {
   font-size: 1.3rem;
 }
 
+.header_socials a {
+  color: var(--color-secondary);
+}
+
 .header_socials::after {
   content: '';
   width: 1px;
   height: 2rem;
-  background-color: var(--color-tertiary);
+  background-color: var(--color-secondary);
 }
 
-/* ------------- LOGO IMAGE ---------------- */
+/* ------------- LOGO IMAGE ---------------- 
 .header_logo {
   display: flex;
-  width: 36rem;
-  height: 24rem;
-  left: calc(50% - 14rem);
+  width: 28rem;
+  height: 18rem;
+
   padding: 0 5rem;
-  margin-top: 3rem;
+  margin-top: 6rem;
 }
+*/
 
 /* ------------- SCROLL DOWN ---------------- */
 .scroll_down {
@@ -65,6 +78,7 @@ header h5 {
   font-weight: 300;
   font-size: 0.9rem;
   bottom: 1rem;
+  color: var(--color-secondary);
 }
 
 /* -------------- MEDIA QUERIES (SMALL DEVICES) ------------------- */
@@ -96,18 +110,11 @@ header h5 {
 }
 
 /* -------------- MEDIA QUERIES (MEDIUM DEVICES) ------------------- */
-
 @media screen and (max-width: 1024px) {
   header {
-    height: 42vh;
+    height: 60vh;
   }
 
-  .header_container {
-    padding: 0 0 0 6rem;
-  }
-}
-
-@media screen and (min-width: 1024px) {
   .header_container {
     padding: 0 0 0 6rem;
   }
@@ -116,7 +123,7 @@ header h5 {
 /* -------------- MEDIA QUERIES (LARGE DEVICES) ------------------- */
 @media screen and (min-width: 1440px) {
   header {
-    height: 60vh;
+    height: 64vh;
   }
 }
 

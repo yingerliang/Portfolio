@@ -11,12 +11,12 @@
 
 :root {
   --color-bg: #fffffe;
-  --color-primary: #6246ea;
-  --color-secondary: #b8c1ec;
-  --color-secondary-variant: #3248b972;
-  --color-tertiary: #e45858;
-  --btn-text-color: #fffffe;
-  --color-text: #2b2c34;
+  --color-primary: #9030dd;
+  --color-primary-variant: #f8f0ff;
+  --color-secondary: #3867d6;
+  --color-secondary-variant: #f0f4ff;
+  --color-hover: #b489d8;
+  --color-text: #2b2e4a;
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
@@ -36,7 +36,7 @@ html {
 body {
   font-family: 'Poppins', sans-serif;
   background-color: var(--color-bg);
-  color: var(--color-white);
+  color: var(--color-text);
   line-height: 1.7;
 }
 
@@ -46,12 +46,10 @@ body {
   margin: 0 auto;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-weight: 500;
+h2 {
+  color: var(--color-secondary);
+  font-weight: 600;
+  font-size: 36px;
 }
 
 section {
@@ -64,39 +62,22 @@ section > h5 {
 }
 
 section > h2 {
-  color: var(--color-text);
   margin-bottom: 3rem;
-}
-
-a {
-  color: var(--color-tertiary);
-  transition: var(--transition);
-}
-
-a:hover {
-  color: var(--color-primary);
 }
 
 .btn {
   width: max-content;
   display: inline-block;
-  color: var(--color-white);
   padding: 0.75rem 1.2rem;
   border-radius: 0.4rem;
   cursor: pointer;
-  border: 1px solid var(--color-primary);
   transition: var(--transition);
+  color: var(--color-text);
 }
 
 .btn:hover {
-  background: var(--color-tertiary);
-  color: var(--btn-text-color);
-  border-color: transparent;
-}
-
-.btn-primary {
-  background: var(--color-primary);
-  color: var(--btn-text-color);
+  background: var(--color-secondary-variant);
+  color: var(--color-text);
 }
 
 img {
