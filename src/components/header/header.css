@@ -1,6 +1,6 @@
 header h1 {
   font-size: 3.5rem;
-  color: var(--color-secondary);
+  color: var(--color-primary);
   font-weight: 600;
 }
 
@@ -27,15 +27,6 @@ header h5 {
   gap: 1rem;
 }
 
-.cta .btn {
-  border: 1px solid var(--color-secondary);
-}
-
-.cta .btn-primary {
-  background: var(--color-secondary);
-  color: var(--color-bg);
-}
-
 /* ------------- HEADER SOCIALS ---------------- */
 .header_socials {
   display: flex;
@@ -49,26 +40,19 @@ header h5 {
 }
 
 .header_socials a {
-  color: var(--color-secondary);
+  color: var(--color-primary);
+}
+
+.header_socials a:hover {
+  color: var(--color-hover);
 }
 
 .header_socials::after {
   content: '';
   width: 1px;
   height: 2rem;
-  background-color: var(--color-secondary);
+  background-color: var(--color-primary);
 }
-
-/* ------------- LOGO IMAGE ---------------- 
-.header_logo {
-  display: flex;
-  width: 28rem;
-  height: 18rem;
-
-  padding: 0 5rem;
-  margin-top: 6rem;
-}
-*/
 
 /* ------------- SCROLL DOWN ---------------- */
 .scroll_down {
@@ -78,7 +62,11 @@ header h5 {
   font-weight: 300;
   font-size: 0.9rem;
   bottom: 1rem;
-  color: var(--color-secondary);
+  color: var(--color-primary);
+}
+
+.scroll_down:hover {
+  color: var(--color-hover);
 }
 
 /* -------------- MEDIA QUERIES (SMALL DEVICES) ------------------- */
@@ -112,7 +100,7 @@ header h5 {
 /* -------------- MEDIA QUERIES (MEDIUM DEVICES) ------------------- */
 @media screen and (max-width: 1024px) {
   header {
-    height: 60vh;
+    height: 50vh;
   }
 
   .header_container {

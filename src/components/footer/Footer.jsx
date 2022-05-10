@@ -5,8 +5,8 @@ import { BsLinkedin } from 'react-icons/bs'
 const Footer = () => {
   return (
     <footer>
-      <a href="#home" className="footer_logo">
-        REBECCA
+      <a rel="noreferrer" href="#top" class="back-to-top">
+        <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
       </a>
 
       <ul className="permalinks">
@@ -34,7 +34,7 @@ const Footer = () => {
       </div>
 
       <div className="footer_copyright">
-        <small>&copy; Rebecca Liang. All rights reserved.</small>
+        <small>&copy;2022 Rebecca Liang. All rights reserved.</small>
       </div>
     </footer>
   )

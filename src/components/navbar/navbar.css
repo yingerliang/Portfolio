@@ -1,27 +1,23 @@
 .navbar {
-  background: linear-gradient(
-    90deg,
-    rgb(20, 152, 235) 1.64%,
-    rgb(150, 45, 227) 100%
-  );
+  background: var(--color-primary-variant);
   height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 1rem;
   position: fixed;
   width: 100%;
   padding: 3rem;
   z-index: 1;
+  color: #242222;
 }
 
 .navbar-logo {
-  color: #fff;
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .nav-menu {
@@ -42,7 +38,6 @@
 }
 
 .nav-links {
-  color: white;
   text-decoration: none;
   padding: 0.5rem 1rem;
 }
